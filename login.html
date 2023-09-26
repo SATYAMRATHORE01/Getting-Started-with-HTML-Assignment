@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+
+<body class="bg-[#344a72]">
+    <div class="whole flex justify-center items-center ">
+        <div class="container max-w-fit min-w-fit mt-20 ">
+            <div class="content bg-white pt-5 pl-3 pr-3 pb-5 shadow-md shadow-gray-400">
+                <h1 class="text-center font-serif font-bold text-2xl ">Login</h1>
+
+                <form action="stym.php">
+                <div class="email_box mt-4  ">
+                    <p class="input_heading">Email</p>
+                    <input type="email" name="email" id="email" class="border-2 border-gray-400 rounded-md w-full">
+                </div>
+
+                <div class="password_box mt-4">
+                    <p class="input_heading">Password</p>
+                    <input type="password" name="password" id="password"
+                        class="border-2 border-gray-400 rounded-md w-full">
+
+                </div>
+                <button type="submit" id="submit_btn"
+                    class="btn submit_btn  bg-green-500 rounded-md p-1 w-full text-xl mt-4 text-white ">Submit</button>
+
+            </div></form>
+            <div class="text-center mt-1 lg:text-xl text-sm">
+                <p class="text-white ">Not have an account? <a href="index.html" class="text-green-600 text-sm underline ">Sign
+                        Up here</a></p>
+            </div>
+
+            
+
+
+        </div>
+        
+    </div>
+    <div id="extra_btn" class="fixed right-10 top-20 text-center" >
+        <button id="change_bg" class="text-white bg-gray-500 border border-red-400 p-2 m-2 rounded-md capitalize">change background(s)</button><br>
+            <button id="stop_btn" class="text-white bg-gray-500 border border-red-400  px-12 py-2  rounded-md capitalize">stop</button></div>
+</body>
+
+
+
+<script>
+//    const random_fun = ()=>{
+   
+//     var value = "0123456789abcdef";
+//     var hex = "#"; 
+  
+//     for(let i=0 ; i<6; i++){ 
+       
+//      var random = Math.floor((Math.random()*16));
+        
+//         hex+=value[random];
+
+//     }
+    
+//     return hex ;
+    
+//   }
+
+// const change_bg = document.getElementById("change_bg");
+// const stop_btn = document.getElementById("stop_btn");
+
+// let bg_interval;
+// const change_bg_func = function(){
+//     if(!bg_interval){
+    
+//    bg_interval = setInterval((event) => {
+//     document.body.style.backgroundColor = random_fun()
+//     // document.body.style.color = random_fun();
+//     // console.log(random_fun())
+//   }, 1000);
+// }
+
+// }
+ 
+
+// const stop_func = () => {
+//     clearInterval(bg_interval)
+// }
+
+
+
+// change_bg.addEventListener('click', change_bg_func)
+// stop_btn.addEventListener('click',stop_func)
+</script>
+
+
+</html>
