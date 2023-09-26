@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conference schedule</title>
+    <style>
+        .container{
+            border: 2px solid black; width: fit-content;
+        }
+        td,th{
+            border: 1px solid black; text-align: center; padding: 5px; padding-left: 10px;}
+        table{
+            margin: 10px;
+        }
+        h1{margin-left: 10px;}
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Conference Schedule</h1>
+
+        <table style="border: 1px solid black;">
+           <tr>
+            <th>Time</th>
+            <th>Room 1</th>
+            <th>Room 2</th>
+            <th>Room 3</th>
+            <th>Room 4</th>
+           </tr>
+           <tr>
+            <td rowspan="3" style="text-align: left;">9:00 AM - 10:00 AM</td>
+            <td rowspan="2" style="text-align: left;">Keynote</td>
+            <td>Session A</td>
+            <td>Session B</td>
+            <td rowspan="3" style="text-align: left;">Session C</td>
+           </tr>
+           <tr>
+            
+            
+            <td>Session D</td>
+            <td>Session E</td>
+            
+           </tr>
+           <tr>
+            
+            <td>10:30 AM - 11:30 AM</td>
+            <td colspan="2" style="text-align: left;">Session F</td>
+        
+            
+           </tr>
+           <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td colspan="4" style="text-align: left;">Lunch Break</td>
+            
+           </tr>
+           <tr>
+            <td rowspan="2" style="text-align: left;">1:00 PM - 2:00 PM</td>
+            <td>Session G</td>
+            <td rowspan="2" style="text-align: left;">Session H</td>
+            <td>Session I</td>
+            <td>Session J</td>
+           </tr>
+           <tr>
+            
+            <td>Session K</td>
+           
+            <td>Session L</td>
+            <td>Session M</td>
+           </tr>
+        </table>
+    </div>
+
+</body>
+</html>
