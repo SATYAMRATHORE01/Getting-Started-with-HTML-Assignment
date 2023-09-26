@@ -1,0 +1,12 @@
+
+
+
+
+    A Document Type Declaration (DOCTYPE) in HTML is an instruction that specifies the type and version of the markup language used in a web document. 
+    It helps web browsers and other user agents understand how to interpret and render the content of the HTML document. DOCTYPE declarations are placed at the very beginning of an HTML document, before the <html> tag.
+
+
+   eg:  <!DOCTYPE html>
+
+
+    In this example, <!DOCTYPE html> is used to declare that the document is written in HTML5, which is the latest and most widely supported version of HTML at the time of my knowledge cutoff date (September 2021). HTML5 introduced significant improvements and new features for web development.

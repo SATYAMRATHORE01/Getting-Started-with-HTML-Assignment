@@ -1,0 +1,32 @@
+ 
+		
+		In HTML (Hypertext Markup Language), the terms "tag" and "element" are fundamental concepts used to define the structure and content of a web page.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Tag:-
+ A tag in HTML is a set of characters enclosed in angle brackets `< >` that specifies how an element should be formatted or structured on a web page. HTML tags are used to define the beginning and end of elements.
+
+For example:
+
+    <p>This is a paragraph.</p>
+ 
+    In this example, `<p>` is the opening tag, and `</p>` is the closing tag, defining a paragraph element.
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Element:-	
+ An element in HTML consists of both the opening and closing tags along with the content enclosed between them. It represents a distinct part of a web page's structure or content. 
+
+Using the previous example:
+
+  			  <p>This is a paragraph.</p>
+    
+
+    Here, `<p>` is the opening tag, `This is a paragraph.` is the content, and `</p>` is the closing tag, together forming the paragraph element.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
