@@ -1,0 +1,80 @@
+1. Justify-content :-    
+
+           The justify-content property in CSS Flexbox controls how the flex items are aligned along the main axis of the flex container. The main axis is the primary direction in which the flex items are laid out, either horizontally or vertically.
+
+           The justify-content property can take the following values:----------------
+
+    flex-start:- The flex items are aligned to the start of the flex container.
+    flex-end:- The flex items are aligned to the end of the flex container.
+    center:- The flex items are centered within the flex container.
+    space-between:- The flex items are evenly distributed within the flex container, with equal space between them.
+    space-around:- The flex items are evenly distributed within the flex container, with equal space between them and the edges of the flex container.
+    space-evenly:- The flex items are evenly distributed within the flex container, with equal space between them and the edges of the flex container, and with equal space between the flex items themselves.
+
+    -------------------------------------------------------------------------------------------------------------
+
+
+    2. Align-items:-
+                The align-items property in CSS Flexbox controls how the flex items are aligned along the cross axis of the flex container. The cross axis is the secondary direction in which the flex items are laid out, perpendicular to the main axis.
+
+                The align-items property can take the following values:------------
+
+    lex-start:- The flex items are aligned to the start of the cross axis.
+    flex-end:- The flex items are aligned to the end of the cross axis.
+    center:- The flex items are centered within the cross axis.
+    baseline:- The flex items are aligned such that their baselines align.
+    stretch:- The flex items are stretched to fill the cross axis.
+    
+                        The default value of the align-items property is stretch.
+
+
+    --------------------------------------------------------------------------------------------------------
+
+
+    3. Gap:-
+            
+        The gap property in CSS Flexbox controls the spacing between flex items. It is a shorthand property for the row-gap and column-gap properties, which control the spacing between rows and columns, respectively.
+
+        The gap property can take a single value, which will be applied to both the row and column gaps, or two values, which will be applied to the row and column gaps in that order.
+
+        The gap property can be used to create a variety of different layouts, such as navigation bars, footers, and product grids. It is especially useful for responsive design, as it allows you to create layouts that will adapt to different screen sizes.
+
+
+        example:- .box{
+            display:flex;
+            gap:20px;
+        }
+
+        ------------------------------------------------------------------------------------------------------
+
+
+
+     4. flex-direction:-
+                    
+                    The flex-direction property in CSS Flexbox controls the direction in which the flex items are laid out. It can take the following values:
+
+                row: The flex items are laid out in a row, from left to right. This is the default value.
+                row-reverse: The flex items are laid out in a row, from right to left.
+                column: The flex items are laid out in a column, from top to bottom.
+                column-reverse: The flex items are laid out in a column, from bottom to top.
+
+                example:- .flex-container {
+                                             display: flex;
+                                             flex-direction: column;  }
+
+----------------------------------------------------------------------------------------------------------
+
+
+    5. flex-wrap:-
+                    
+            The flex-direction property in CSS Flexbox controls the direction in which the flex items are laid out. It can take the following values:
+
+        row: The flex items are laid out in a row, from left to right. This is the default value.
+        
+        row-reverse: The flex items are laid out in a row, from right to left.
+
+        column: The flex items are laid out in a column, from top to bottom.
+
+        column-reverse: The flex items are laid out in a column, from bottom to top.
+
+        The flex-direction property can be used to create a variety of different layouts, such as navigation bars, footers, and product grids. It is especially useful for responsive design, as it allows you to create layouts that will adapt to different screen sizes.
