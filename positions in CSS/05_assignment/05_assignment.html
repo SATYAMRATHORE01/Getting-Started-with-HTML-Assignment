@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+
+
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            
+        }
+        .container{
+            background-color: yellow;
+            
+            width: 300px;
+            height: 300px;
+            position: relative;
+         
+   
+        }
+
+        .inner{
+      
+            background-color: green;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            z-index: -1;
+         
+       
+        }
+        .first{
+                background-color: violet;
+                position: absolute;
+               left: 50%;
+              
+
+               
+        }
+
+        .second{
+                background-color: blue;
+                position: absolute;
+                left: 100%;
+                 z-index: -2;
+        }
+
+    
+
+
+
+    </style>
+
+</head>
+<body>
+                <div  class="container">
+                    <div  class="inner">
+                        <div class="first"></div>
+                        <div class="second"></div>
+                    </div>
+                </div>
+                <h1 style="margin-left: 400px;">Z-index</h1>
+
+</body>
+</html>
