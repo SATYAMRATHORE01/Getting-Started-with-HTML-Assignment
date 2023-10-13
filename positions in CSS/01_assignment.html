@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxes</title>
+
+        <style>
+
+
+           
+            .inner_box{
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                background-color: aquamarine;
+                font-size: larger;
+                font-weight: bold;
+                border: 1px dotted orange;
+
+            }
+
+            #box_main{
+                position: relative;
+                top: 200px;
+                left: 200px;
+            }
+
+            #box2{
+                position: absolute;
+                top: -30px;
+                left: -30px;
+            }
+
+            #box3{
+                position: absolute;
+                top: -30px;
+                right: -30px;
+            }
+
+            #box4{
+                position: absolute;
+                bottom: -30px;
+                left: -30px;
+            }
+
+            #box5{
+                position: absolute;
+                bottom: -30px;
+                right: -30px;
+            }
+
+        </style>
+
+</head>
+<body>
+    
+            
+                <div class="inner_box" id="box_main">A
+                <div class="inner_box" id="box2">B</div>
+                <div class="inner_box" id="box3">C</div>
+                <div class="inner_box" id="box4">D</div>
+                <div class="inner_box" id="box5">E</div>
+            </div>
+
+</body>
+</html>

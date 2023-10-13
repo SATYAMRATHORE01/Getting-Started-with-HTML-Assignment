@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using float</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+           
+            padding: 5px;
+        }
+        .inner_container{
+            width: 100wh;
+            height: 200px;
+        
+            background-color: rgb(228, 190, 166);
+            padding: 10px;
+        }
+
+       
+
+        .inner_container .left_part{
+            width: 70%;
+            margin-right: 10px;
+            margin-left: 10px;
+           height: 100%;
+         float: left;
+         
+        }
+
+        .inner_container .right_part{
+            width: 28%;
+          
+            height: 100%;
+            float: right;
+          
+          
+            
+        }
+
+        h1{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner_container">
+            <div class="left_part">
+                <h1>the earth!!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis minus earum ab ullam laborum fuga adipisci maxime nobis quia, ad tempore distinctio alias, recusandae aliquid! Voluptatum minima placeat pariatur rerum ullam explicabo maxime, at optio dolore ad? In, vel deleniti. Deleniti adipisci doloribus amet culpa laudantium quia, exercitationem illo assumenda praesentium officiis voluptatibus possimus laborum cupiditate ea eum facere corporis odio doloremque distinctio reprehenderit labore commodi! Incidunt sapiente vero, totam pariatur sit nobis re. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ex libero tempora, sit nulla aspernatur nihil voluptate nostrum similique, ea, earum architecto unde a.</p>
+
+            </div>
+            <div class="right_part">
+                <img style="float: right;" src="fish.png" width="100%" height="100%" alt="fish_image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
