@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+
+        <!--sign up form ..................................................... START-->
+ 
+    <form action="stym.php" method="get">
+       <fieldset style="width: 50%;">
+            <legend>Sign Up Form</legend>
+            <div>First Name : <input type="text" required minlength="3"></div><br>
+            <div>Last Name : <input type="text" required minlength="3"></div><br>
+            <div>Email : <input type="email" required name="email" id="email" minlength="3"></div><br>
+            <div>Password : <input type="password" name="password" id="password" required minlength="3"></div><br>
+            <div>Confirm Password : <input type="password" name="confirm_password" id="confirm_password" required
+                    minlength="3"></div><br>
+            <div>Age : <input type="number" name="Age" id="age" min="1" max="150"></div>
+            <br>
+            <div>Gender : <input type="radio" name="Gender" value="male" id="male"><label for="male">Male</label> <input
+                    type="radio" name="Gender" id="female" value="female"><label for="female">female</label> <input
+                    type="radio" id="others" name="Gender" value="other"><label for="others">Others</label></div>
+            <br>
+            <input type="checkbox" name="t_and_c" id="t_and_c"><label for="t_and_c" >agree to terms and
+                conditions</label>
+            <br>
+            <br>
+
+            <input type="submit" name="submit" id="submit">
+      </fieldset>
+    </form>
+                        <!--sign up form ..................................................... END-->
+                        
+
+<br>
+<hr> <br>
+
+
+                <!--sign In form ..................................................... START-->
+
+    <form action="stym.php" method="get">
+
+<fieldset style="width: 50%;">
+    <legend>Sign In Form</legend>
+
+    <div>Email : <input type="email" required name="log_email" id="log_email" minlength="3"></div><br>
+    <div>Password : <input type="password" required name="log_password" id="log_password" minlength="3"></div>
+    <input type="submit" name="log_submit" id="log_submit">
+
+
+</fieldset>
+    </form>
+
+                <!--sign In form ..................................................... END-->
+</body>
+
+</html>
